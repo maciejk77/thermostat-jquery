@@ -27,14 +27,29 @@ describe('Thermostat default settings', function() {
 
 });
 
-// describe('Thermostat features', function(){
+describe('Thermostat features', function() {
 
-//   beforeEach(function() {
-//     thermostat = new Thermostat();
-//   });
+  beforeEach(function() {
+    thermostat = new Thermostat();
+  });
 
-//   it('can increase temperature by one degree', function() {
-//     expect(thermostat.temperature).toEqual(21);
-//   });
+  it('can increase temperature with UP button', function() {
+    newTemperature = (thermostat.temperature + 1);
+    thermostat.increase();
+    expect(thermostat.temperature).toEqual(newTemperature);
+  });
 
-// });
+  it('can decrease temperature with DOWN button', function() {
+    newTemperature = (thermostat.temperature - 1);
+    thermostat.decrease();
+    expect(thermostat.temperature).toEqual(newTemperature);
+  });
+
+
+  it('can reset to default temperature', function() {
+    thermostat.increase();
+    thermostat.resetButton();
+    expect(thermostat.temperature).toEqual(thermostat.defaultTemperature);
+  });
+
+});

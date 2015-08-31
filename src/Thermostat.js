@@ -21,3 +21,19 @@ Thermostat.prototype.powerSaveCheck = function() {
     return 32;
   }
 };
+
+Thermostat.prototype.increase = function() {
+  if(this.temperature < this.maxTemperature) {
+    this.temperature++;
+  }
+};
+
+Thermostat.prototype.decrease = function() {
+  if(this.temperature > this.minTemperature) {
+    this.temperature--;
+  };
+};
+
+Thermostat.prototype.resetButton = function() {
+  this.temperature = this.defaultTemperature;
+};
