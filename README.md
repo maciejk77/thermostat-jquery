@@ -1,0 +1,1 @@
+An athletic restart to Thermostat app in **jQuery** with **Jasmine BDD** testing.
