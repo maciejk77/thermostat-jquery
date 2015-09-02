@@ -22,7 +22,6 @@ describe('Thermostat default settings', function() {
 
   it('has a maximum temperature of 32 if Power Saving is OFF', function() {
     thermostat.powerSaveSwitch();
-    console.log(thermostat.powerSave);
     expect(thermostat.maxTemperature).toEqual(32);
   });
 
@@ -53,6 +52,8 @@ describe('Thermostat features', function() {
     expect(thermostat.temperature).toEqual(thermostat.defaultTemperature);
   });
 
+  // NO IDEA WHY this test is not passing.......
+  
   // it('can not go below its minimum temperature', function() {
   //   var decreaseTimes = (thermostat.temperature - thermostat.minTemperture + 1);
   //   var count = decreaseTimes;

@@ -12,15 +12,17 @@
 
     <section class="container">
     <div class="thermostat">
+      <img src="img/panel.png" class="panel" />
 
       <section class="temperature">
         <span class="view"></span>
-        <span class="degrees">°</span>
+        <span class="degrees">&deg;</span>
       </section>
 
       <section class="buttons">
         <aside class="up_and_down">
           <button class="buttonUp">&#8593;</button>
+          <span id="powerSave"></span>
           <button class="buttonDown">&#8595;</button>
         </aside>
         <aside class="reset_powersave">
@@ -30,8 +32,7 @@
       </section>
 
       <section class="info">
-        <aside>Power Save: <span id="powerSave"></span></aside>
-        <marquee>London Today: <span id="outsideTemperature"></span>&deg;</marquee>
+        <marquee class="marquee">Temperature in London now: <span id="outsideTemperature"></span>&deg;</marquee>
       </section>
 
     </div>

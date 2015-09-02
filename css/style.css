@@ -1,0 +1,64 @@
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.view {
+  font-size: 6.5em;
+  position: absolute;
+  left: 190px;
+  top: 120px;  
+}
+
+.degrees {
+  position: absolute;
+  font-size: 2.5em;
+  left: 300px;
+  top: 120px;
+}
+
+.up_and_down button {
+
+  margin-top: 250px;
+  font-size: 1em;
+  background-color: #fff;
+  border: 1px solid #1e1e1e;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buttonUp{
+  margin-left: 140px;
+}
+
+.buttonDown{
+  margin-left: 40px;
+}
+
+.marquee {
+  margin: -280px 810px 300px 50px;
+  font-family: Verdana;
+}
+
+.reset_powersave {
+  margin: 10px 810px 300px 85px;
+  font-size: 2.5em;
+}
+
+#buttonReset, #powerSaveSwitch {
+  font-size: .7em;
+
+} 
+
+#outsideTemperature {
+  font-weight: bold;
+}
+
+#powerSave {
+  margin-left: 50px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 1.2em;
+}
