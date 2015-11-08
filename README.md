@@ -2,7 +2,7 @@ An athletic restart to Thermostat app in **jQuery** with **Jasmine BDD** testing
 
 ####Key learnings:
 
-- Setting up Jasmine testing (BDD)
+- Setting up Jasmine testing (TDD)
 - jQuery and JS functions
 - getJSON and Weather API
 
