@@ -1,4 +1,4 @@
-An athletic restart to Thermostat app in **jQuery** with **Jasmine BDD** testing.
+An athletic restart to Thermostat app in **jQuery** with **Jasmine TDD** testing.
 
 ####Key learnings:
 
